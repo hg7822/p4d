@@ -1,15 +1,15 @@
 var mydragon;
-var img;
+var dragon;
 
 function preload(){
-	img= loadImage('bluedragon.png');
+	dragon= loadImage('bluedragon.png');
 }
 
 function setup(){
 	
 	createCanvas(400,400);
 	
-	mydragon = new Dragon();
+	mydragon = new Dragon(dragon);
 	mydragon.x = width/2;
 	mydragon.y = height/2;
 }
