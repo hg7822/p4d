@@ -1,6 +1,6 @@
 class Dragon
 {
-	construct(img)
+	constructor(img)
 	
 	{
 		this.x = 0;
@@ -11,7 +11,7 @@ class Dragon
 	    this.dragon = img;
 		this.dragon.resize(width*.2,0);
 		
-		console.log(this.dragon.width);
+	//	console.log(this.dragon.width);
 		
 	}
 	
@@ -36,7 +36,7 @@ class Dragon
 		//fill(0,0,255);
 		//rect(this.x, this.y, this.w,this.h);
 		//pop();
-	image(this.dragon, this.x,this.y);
+	   image(this.dragon, this.x,this.y);
 	
 	}
 }
