@@ -9,12 +9,12 @@ class firstsmile
         this.y = 300;
         this.size = random(30,50);
         
-        this.firstsmile = img;
+        this.Firstsmile = img;
     }
     
     display()
     {
-      image(this.firstsmile, this.x,this.y);
+      image(this.Firstsmile, this.x,this.y);
       
     }
 	
