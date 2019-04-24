@@ -10,11 +10,12 @@ var buttons;
 var mysands = [];
 var fontRegular; 
 var fontBold;
+var mysmile1;
 
 var geoBoy;
 var smile1;
 
-var mysmile1;
+
 
 function preload(){
 	
