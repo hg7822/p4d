@@ -26,7 +26,7 @@ class sadface
 	move(){
 		
 		// make the triangle sad faces move back and forward in random(-10,10) every frame. 
-		this.x = this.x + random(-3,3);
+		this.x = this.x + random(-3,4);
 		
 	}
 	
