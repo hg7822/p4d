@@ -3,8 +3,7 @@ class sand2
 	
     constructor()
     {
-        // Create a new square smile face with a default
-        // x, y, size, and speed
+        // the second line of sand 
         this.x = random(0,1600);
         this.y = 413
         this.size = random(0,3);
@@ -23,6 +22,8 @@ class sand2
     }
 	
 	move(){
+		
+		//make the second line of sand move to right, once it touch the edge, get it back to left. 
 		
 		// sands move in speed of 2
 		this.x = this.x +2;

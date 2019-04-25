@@ -3,8 +3,7 @@ class sand
 	
     constructor()
     {
-        // Create a new square smile face with a default
-        // x, y, size, and speed
+        // the first line of grand 
         this.x = random(0,1600);
         this.y = random(401,415);
         this.size = random(2,5);
@@ -22,10 +21,10 @@ class sand
         pop();
     }
 	
+	// make the first line of sand move to right, once it touch the edge, get it back to left. 
 	move(){
 		
 		this.x = this.x +2;
-		
 		this.x %= width;
 		
 	}
